@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('Roboto-Regular.ttf');
+ }
+a:hover{
+    text-decoration: none;
+}
+body div{
+    font-family: 'Roboto';
+}
+body a{
+    font-family: 'Roboto';
+}
+h{
+    font-family: 'Roboto';
+}
+span{
+    font-family: 'Roboto';
+}
+* {
+    font-family: 'Roboto';
+}
+p{
+    font-family: 'Roboto';
+}
+
+.header-page {
+	width: 100%;
+	position: absolute;	
+	background-color: #fff;
+	left: 0;
+	padding: 20px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-top:2px solid #e42222;
+	top: 55px;
+	opacity: 0;
+	display: none;
+	box-shadow: 1px 1px 5px 1px grey;
+	transition: 1s;
+
+}
+.header-page a:nth-child(1){
+	font-size: 12px;
+}
+.lienhe-led:hover .header-page{
+	opacity: 1;
+	display: block;
+	transition: 1s;
+}
+.header-left {
+	padding: 10px 0;
+	width: 95%;
+}
+.header-right {
+	padding: 10px 0;
+}
+.header-left a{
+	color: #dc3545!important;
+	font-size: 0.9rem;
+	border-right: 0.5px solid black;
+	padding: 0 10px 0 0;
+}
+.header-left a:last-child {
+	border: none;
+}
+.header-left a::after{
+
+	content: "";
+	font-size: 10px;
+	height: 100%;
+	width: 1px;
+	background-color: black;
+	color: black;
+}
+.footer {
+	text-align: left;
+	color: white;
+	position: relative;
+}
+.footer span {
+	font-size: 12px;
+	transition: 2s;
+}
+.footer span:hover {
+	margin-left: 20px;
+	transition: 2s;
+}
+.footer span:nth-child(2){
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.footer form .btn{
+	width: 100%;
+}
+.box-chat {
+	position: fixed;
+	bottom: 55px;
+	z-index: 998;
+	transition: 2s;
+
+}
+.box-chat2{
+	position: fixed;
+	bottom: -275px;
+	z-index: 998;
+	transition: 2s;
+}
+.box-bottom {
+	background-color: #e42222;	
+	padding: 15px 0;
+	text-transform: uppercase;
+	color: white;
+	position: fixed;
+	bottom: 0px;
+	z-index: 999;
+	/*display: ;*/
+}
+.box-bottom a{
+	color: white;
+
+}
+.lienhe {
+	padding: 10px;
+	margin-left: 20px;
+	width: 350px;
+	height: 400px;
+	background-color: black;
+	border-radius : 10px;
+	color: white;
+	position: relative;
+	z-index: 998;
+	/*bottom: 55px;*/
+}
+.lienhe .btn{
+	width: 100%;
+	background-color: #e42222;	
+}
+.lienhe .icon {
+	position: absolute;
+	right: 15px;
+	top: 0px;
+	font-size: 20px;
+}
