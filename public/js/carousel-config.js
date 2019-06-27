@@ -1,20 +1,22 @@
-$('.doitac-content-carousel').owlCarousel({
+$('.slide-2').owlCarousel({
+    items:4,
     loop:true,
     margin:10,
     responsiveClass:true,
-    dots:false,
-    nav:false,
+    dots:true,
+    nav:true,
+
     autoplay:true,
     autoplayTimeout:3000,
     responsive:{
         0:{
-            items:3,
+            items:2,
         },
         600:{
-            items:5,
+            items:3,
         },
         1000:{
-            items:7,
+            items:3,
         }
     }
-})
+});
