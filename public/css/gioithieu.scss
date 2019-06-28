@@ -1,0 +1,474 @@
+$font-sm:13px;
+$font-tittle: 31px;
+$font-reponsive: 13px;
+
+@mixin padding {
+    padding: 10px 5px;
+
+}
+
+@mixin font($size, $weight, $mau) {
+    font-size: $size;
+    font-weight: $weight;
+    color: $mau;
+}
+
+@mixin h2 {
+    font-size: 36px;
+    color: #121214;
+    text-transform: uppercase;
+    border-bottom: 4px solid #E42222;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+img,
+iframe {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+// page-header
+.page-header {
+    width: 100%;
+    height: auto;
+    background-color: #171717;
+    box-sizing: border-box;
+    padding: 10px 0;
+    border-bottom: 5px solid #ccc;
+
+    .breadcrumb {
+        background-color: transparent;
+        font-size: $font-sm;
+        color: #777;
+        padding-left: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+
+
+        .active {
+            color: #e42222;
+        }
+    }
+
+    .page-tittle {
+        display: inline-block;
+        font-size: $font-tittle;
+        color: #fff;
+        position: relative;
+        top: 15px;
+        padding-bottom: 12px;
+        margin: 0;
+        border-bottom: 5px solid #e42222;
+    }
+}
+
+// option
+.option {
+    width: 100%;
+
+    .option-t {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+
+        select {
+            @include padding();
+            margin-right: 5px;
+            font-size: $font-sm;
+            text-transform: capitalize;
+
+
+            option {
+                font-size: $font-sm;
+
+            }
+        }
+
+        .search-box {
+            input {
+                @include padding();
+            }
+
+            input::placeholder {
+                font-size: $font-sm;
+
+            }
+
+            .btn {
+                border-radius: 0;
+                transition: none;
+
+            }
+        }
+    }
+
+    .text-option a {
+        color: #e42222;
+        font-size: 14px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+
+}
+
+// gioi-thieu
+.gioi-thieu {
+    width: 100%;
+
+    .tittle-shac {
+        h2 {
+            @include font(72px, 700, #ff0000);
+            text-transform: uppercase;
+        }
+
+        h3 {
+            @include font(24px, 700, #121214);
+            text-transform: uppercase;
+        }
+    }
+
+    .content-tittle {
+        font-size: 14px;
+        text-align: justify;
+    }
+}
+
+// dich-vu
+
+.dich-vu {
+    padding-top: 12px;
+
+    .tittle-dv {
+        @include h2();
+        font-weight: 300;
+    }
+
+    .left {
+        margin-top: 30px;
+
+        .item-1 {
+            display: flex;
+            margin-bottom: 45px;
+
+            .icon-key {
+                color: #e42222;
+                font-size: 32px;
+                margin-right: 15px;
+            }
+
+            .text-item {
+
+                h3 {
+                    font: {
+                        size: 16px;
+                        weight: 400;
+                    }
+
+                    color: #e42222;
+
+                }
+
+                p {
+                    font: {
+                        size: 14px;
+                        weight: 400;
+                    }
+
+                    color: #212529;
+                }
+            }
+        }
+    }
+}
+
+// counter
+.counter {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background-color: #E42222;
+
+    .khach-hang {
+        .counter-count {
+            font-size: 60px;
+            color: #fff;
+            margin-bottom: 0;
+        }
+
+        .counter-p {
+            font-size: 20px;
+            color: #fff;
+        }
+
+
+    }
+}
+
+// text-carousel
+.text-carousel {
+    background: url('http://gamenet.vietngapc.vn/wp-content/uploads/2017/06/background.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 265px;
+
+    .text-slide {
+        .item {
+            .blockquote {
+                padding-top: 70px;
+
+                p {
+                    color: #fff;
+
+                    font: {
+                        size: 17px;
+                        style: italic;
+                        weight: 400;
+                    }
+                }
+
+                .blockquote-footer {
+                    padding-top: 15px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+
+}
+
+// tam nhin va su menh
+.su-menh {
+    padding-top: 30px;
+
+    .tittle-sumenh {
+        h2 {
+            @include h2();
+        }
+
+        p {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #212529;
+        }
+    }
+
+    #accordion {
+        .card {
+            margin-bottom: 5px;
+
+            .card-header {
+                a {
+                    color: #E42222;
+                    font-size: 16px;
+                }
+            }
+
+            .card-body {
+                font-size: 14px;
+                color: #212529;
+            }
+        }
+    }
+}
+
+// gia tri cot loi
+.gia-tri {
+    .tittle-gt {
+        h2 {
+            @include h2();
+        }
+    }
+
+    .left-gt {
+        .img-gt {
+            a img {
+                width: 500px;
+                height: auto;
+            }
+        }
+
+        p {
+            color: #555;
+            font-size: 14px;
+        }
+    }
+
+    .text-gt-r {
+        p {
+            font-size: 14px;
+            color: #555;
+        }
+    }
+}
+
+// van hoa -dn
+.van-hoa {
+    width: 100%;
+    height: auto;
+    background: #F4F4F4;
+    padding-top: 50px;
+
+    h2 {
+        @include h2();
+    }
+
+    .text-dn {
+
+        p {
+            color: #555555;
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        .list-dn {
+            margin-left: 4rem;
+
+            ul {
+                li {
+                    font-size: 14px;
+                    color: #555;
+
+                    i {
+                        color: #E42222;
+                    }
+                }
+            }
+        }
+    }
+
+    .img-dn {
+        img {
+            width: 500px;
+            height: 332px;
+        }
+    }
+
+
+}
+
+// history
+.history {
+    h2 {
+        @include h2();
+    }
+
+    .thumb {
+        background: transparent url(https://shac.vn/wp-content/themes/porto/images/history-thumb.png) no-repeat 0 0;
+        width: 227px;
+        height: 160px;
+        margin: 0 0 30px;
+        padding: 0;
+
+        img {
+            width: 145px;
+            height: 145px;
+            border-radius: 150px;
+            margin: 7px 8px;
+        }
+    }
+
+    .wrapper-history {
+        width: 100%;
+        height: auto;
+        background: #eee;
+        padding-bottom: 15px;
+        border-top: 4px solid #E42222;
+        box-shadow: 2px 2px 1px 1px #ccc;
+
+        .text-box {
+            padding: 30px 0 0 35px;
+
+            p {
+                font-size: 14px;
+                color: #555;
+
+                span {
+                    color: #E42222;
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+            }
+
+
+        }
+
+
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .page-header {
+
+        .breadcrumb {
+            font-size: 12px;
+        }
+
+        .page-tittle {
+            font-size: 26px;
+        }
+    }
+
+    .option-t {
+        display: flex;
+        flex-flow: column;
+
+        select {
+            margin-bottom: 5px;
+        }
+
+        .text-option {
+            a {
+                font-size: $font-reponsive;
+            }
+
+        }
+    }
+
+
+    .history {
+
+        .thumb {
+            display: none;
+        }
+
+        .wrapper-history {
+            padding: 15px;
+
+            .text-box {
+                padding: 0;
+            }
+        }
+
+    }
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .history {
+        .thumb {
+            display: none;
+        }
+
+        .ipad-reponsive {
+            right: 66px;
+        }
+    }
+}
