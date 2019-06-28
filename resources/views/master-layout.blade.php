@@ -3,10 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>toi la vu</title>
+	<title>toi la vu.</title>
 	<base href="{{asset('')}}">
 	<link rel="stylesheet" href="">
-	 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="shortcut icon" type="image/x-icon" href="https://kenh14cdn.com/2019/2/24/3561716420480213454575853861059020806684672n-15510057259571546306615.jpg" />
 	<link rel="stylesheet" type="text/css" href="lib/bootstrap_4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/reset-browser.css">
@@ -20,9 +20,14 @@
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" href="css/gioithieu.css">
+	
+	
+	<script src="lib\OwlCarousel2-2.3.4\owl.carousel.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="lib/bootstrap_4.0.0/js/bootstrap.min.js"></script>
-	<script src="lib\OwlCarousel2-2.3.4\owl.carousel.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
+	<script type="text/javascript" src="lib/OwlCarousel2-2.3.4/owl.carousel.js"></script>
 	
 </head>
 <body>

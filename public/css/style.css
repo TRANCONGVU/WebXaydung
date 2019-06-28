@@ -23,7 +23,15 @@ span{
 p{
     font-family: 'Roboto';
 }
-
+.container{
+	padding: 0;
+	margin: 0;
+}
+.container img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 .header-page {
 	width: 100%;
 	position: absolute;	
@@ -144,4 +152,55 @@ p{
 	right: 15px;
 	top: 0px;
 	font-size: 20px;
+}
+.silde-home {
+	height: 300px !important;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.slide-home img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.select-home {
+	width: 200px !important;
+	height: 50px;
+}
+.ss2{
+	overflow: hidden;
+	height: 150px !important;
+}
+.ss2 a:nth-child(1){
+	font-size: 18px;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+.ss2 a:nth-child(2){
+	font-size: 15px;
+}
+.ss2 img{
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+}
+.ss2-right {
+	width: 100%;
+	height: 100%;
+}
+.slide-2 {
+	position: relative;
+}
+.slide-2 .owl-nav{
+	font-size: 45px;
+}
+.slide-2 .owl-prev {
+	position: absolute;
+	left: -25px;
+    top: 60px;
+}
+.slide-2 .owl-next {
+	position: absolute;
+	right: -25px;
+    top: 60px;
 }
