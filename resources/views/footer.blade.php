@@ -1,4 +1,4 @@
-<!-- <div class="box-chat">
+<div class="box-chat">
 <div class="container-fluid box-bottom">
 	<div class="container d-flex justify-content-around ">
 		<a href="#">đăng ký , thiết kế thi công : 0123231233</a>
@@ -91,4 +91,4 @@
 		        tt = true;
 		    }
 		});
-	</script> -->
+	</script>

@@ -1,0 +1,265 @@
+img,
+iframe {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; }
+
+.page-header {
+  width: 100%;
+  height: auto;
+  background-color: #171717;
+  box-sizing: border-box;
+  padding: 10px 0;
+  border-bottom: 5px solid #ccc; }
+  .page-header .breadcrumb {
+    background-color: transparent;
+    font-size: 13px;
+    color: #777;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-bottom: 0; }
+    .page-header .breadcrumb .active {
+      color: #e42222; }
+  .page-header .page-tittle {
+    display: inline-block;
+    font-size: 31px;
+    color: #fff;
+    position: relative;
+    top: 15px;
+    padding-bottom: 12px;
+    margin: 0;
+    border-bottom: 5px solid #e42222; }
+
+.option {
+  width: 100%; }
+  .option .option-t {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px; }
+    .option .option-t select {
+      padding: 10px 5px;
+      margin-right: 5px;
+      font-size: 13px;
+      text-transform: capitalize; }
+      .option .option-t select option {
+        font-size: 13px; }
+    .option .option-t .search-box input {
+      padding: 10px 5px; }
+    .option .option-t .search-box input::placeholder {
+      font-size: 13px; }
+    .option .option-t .search-box .btn {
+      border-radius: 0;
+      transition: none; }
+  .option .text-option a {
+    color: #e42222;
+    font-size: 14px; }
+    .option .text-option a:hover {
+      text-decoration: underline; }
+
+.gioi-thieu {
+  width: 100%; }
+  .gioi-thieu .tittle-shac h2 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #ff0000;
+    text-transform: uppercase; }
+  .gioi-thieu .tittle-shac h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #121214;
+    text-transform: uppercase; }
+  .gioi-thieu .content-tittle {
+    font-size: 14px;
+    text-align: justify; }
+
+.dich-vu {
+  padding-top: 12px; }
+  .dich-vu .tittle-dv {
+    font-size: 36px;
+    color: #121214;
+    text-transform: uppercase;
+    border-bottom: 4px solid #E42222;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-weight: 300; }
+  .dich-vu .left {
+    margin-top: 30px; }
+    .dich-vu .left .item-1 {
+      display: flex;
+      margin-bottom: 45px; }
+      .dich-vu .left .item-1 .icon-key {
+        color: #e42222;
+        font-size: 32px;
+        margin-right: 15px; }
+      .dich-vu .left .item-1 .text-item h3 {
+        font-size: 16px;
+        font-weight: 400;
+        color: #e42222; }
+      .dich-vu .left .item-1 .text-item p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #212529; }
+
+.counter {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  background-color: #E42222; }
+  .counter .khach-hang .counter-count {
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 0; }
+  .counter .khach-hang .counter-p {
+    font-size: 20px;
+    color: #fff; }
+
+.text-carousel {
+  background: url("http://gamenet.vietngapc.vn/wp-content/uploads/2017/06/background.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 265px; }
+  .text-carousel .text-slide .item .blockquote {
+    padding-top: 70px; }
+    .text-carousel .text-slide .item .blockquote p {
+      color: #fff;
+      font-size: 17px;
+      font-style: italic;
+      font-weight: 400; }
+    .text-carousel .text-slide .item .blockquote .blockquote-footer {
+      padding-top: 15px;
+      font-size: 14px; }
+
+.su-menh {
+  padding-top: 30px; }
+  .su-menh .tittle-sumenh h2 {
+    font-size: 36px;
+    color: #121214;
+    text-transform: uppercase;
+    border-bottom: 4px solid #E42222;
+    display: inline-block;
+    padding-bottom: 5px; }
+  .su-menh .tittle-sumenh p {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #212529; }
+  .su-menh #accordion .card {
+    margin-bottom: 5px; }
+    .su-menh #accordion .card .card-header a {
+      color: #E42222;
+      font-size: 16px; }
+    .su-menh #accordion .card .card-body {
+      font-size: 14px;
+      color: #212529; }
+
+.gia-tri .tittle-gt h2 {
+  font-size: 36px;
+  color: #121214;
+  text-transform: uppercase;
+  border-bottom: 4px solid #E42222;
+  display: inline-block;
+  padding-bottom: 5px; }
+.gia-tri .left-gt .img-gt a img {
+  width: 500px;
+  height: auto; }
+.gia-tri .left-gt p {
+  color: #555;
+  font-size: 14px; }
+.gia-tri .text-gt-r p {
+  font-size: 14px;
+  color: #555; }
+
+.van-hoa {
+  width: 100%;
+  height: auto;
+  background: #F4F4F4;
+  padding-top: 50px; }
+  .van-hoa h2 {
+    font-size: 36px;
+    color: #121214;
+    text-transform: uppercase;
+    border-bottom: 4px solid #E42222;
+    display: inline-block;
+    padding-bottom: 5px; }
+  .van-hoa .text-dn p {
+    color: #555555;
+    font-size: 14px;
+    text-align: justify; }
+  .van-hoa .text-dn .list-dn {
+    margin-left: 4rem; }
+    .van-hoa .text-dn .list-dn ul li {
+      font-size: 14px;
+      color: #555; }
+      .van-hoa .text-dn .list-dn ul li i {
+        color: #E42222; }
+  .van-hoa .img-dn img {
+    width: 500px;
+    height: 332px; }
+
+.history h2 {
+  font-size: 36px;
+  color: #121214;
+  text-transform: uppercase;
+  border-bottom: 4px solid #E42222;
+  display: inline-block;
+  padding-bottom: 5px; }
+.history .thumb {
+  background: transparent url(https://shac.vn/wp-content/themes/porto/images/history-thumb.png) no-repeat 0 0;
+  width: 227px;
+  height: 160px;
+  margin: 0 0 30px;
+  padding: 0; }
+  .history .thumb img {
+    width: 145px;
+    height: 145px;
+    border-radius: 150px;
+    margin: 7px 8px; }
+.history .wrapper-history {
+  width: 100%;
+  height: auto;
+  background: #eee;
+  padding-bottom: 15px;
+  border-top: 4px solid #E42222;
+  box-shadow: 2px 2px 1px 1px #ccc; }
+  .history .wrapper-history .text-box {
+    padding: 30px 0 0 35px; }
+    .history .wrapper-history .text-box p {
+      font-size: 14px;
+      color: #555; }
+      .history .wrapper-history .text-box p span {
+        color: #E42222;
+        font-size: 18px;
+        font-weight: 700; }
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 15px; }
+
+  .page-header .breadcrumb {
+    font-size: 12px; }
+  .page-header .page-tittle {
+    font-size: 26px; }
+
+  .option-t {
+    display: flex;
+    flex-flow: column; }
+    .option-t select {
+      margin-bottom: 5px; }
+    .option-t .text-option a {
+      font-size: 13px; }
+
+  .history .thumb {
+    display: none; }
+  .history .wrapper-history {
+    padding: 15px; }
+    .history .wrapper-history .text-box {
+      padding: 0; } }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    padding: 0 15px; }
+
+  .history .thumb {
+    display: none; }
+  .history .ipad-reponsive {
+    right: 66px; } }
+
+/*# sourceMappingURL=gioithieu.css.map */
