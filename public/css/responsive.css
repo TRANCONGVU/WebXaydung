@@ -1,14 +1,14 @@
 
 /*---------------------------------------Responsive---------------------------------------*/
 @media only screen and (min-width: 1220px) {
-	
+
 }
 @media only screen and (min-width: 1201px) {
 	}
 @media only screen and (max-width: 1200px) {
-	
+
 	.nav-horizontal-content ul.nav-ul-lv-1>li>a{
-		font-size: 13px;
+		font-size: 10px;
 		font-weight: 300;
 	}
 	.nav-horizontal-search form{
@@ -28,16 +28,14 @@
 	.nav-horizontal-search form button i{
 		font-size: 13px;
 	}
-	
-	
+
+
 }
 @media only screen and (max-width: 992px) {
 	.container {
 	    max-width: 932px;
-	}
-}
-@media only screen and (max-width: 930px) {
-	.nav-horizontal-content ul.nav-ul-lv-1{
+    }
+    .nav-horizontal-content ul.nav-ul-lv-1{
 		display: none;
 	}
 	.menu-mobile-button{
@@ -53,7 +51,10 @@
 	.header-right {
 		display: none;
 	}
-	
+}
+@media only screen and (max-width: 930px) {
+
+
 }
 @media only screen and (max-width: 888px) {
 
@@ -82,19 +83,20 @@
 
 
 @media only screen and (max-width: 780px) {
-	
+
 }
 @media only screen and (max-width: 767px) {
+
 }
 @media only screen and (max-width: 687px) {
-	
+
 }
 @media only screen and (max-width: 680px) {
 
 }
 
 @media only screen and (max-width: 580px) {
-	
+
 	footer>div>div.row>div{
 		width: 50%;
 		max-width: 50%;
@@ -117,9 +119,12 @@
 }
 @media only screen and (max-width: 475px) {
 
-	
+
 }
 @media only screen and (max-width: 440px) {
+    .select-home{
+        width: 150px !important;
+    }
 	.nav-horizontal-logo{
 		width: 40px;
 		height: 40px;
