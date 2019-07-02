@@ -304,7 +304,8 @@
                 </div>
                 <!-- card-video -->
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <p><iframe width="350" height="220" src="//www.youtube.com/embed/QbTB04utjeg" class="lazyloading" data-was-processed="true"></iframe></p>
+                    <p><iframe width="350" height="220" src="//www.youtube.com/embed/QbTB04utjeg" class="lazyloading"
+                            data-was-processed="true"></iframe></p>
                     <p class="text-center">Tổng kết năm 2019 - SHAC</p>
                 </div>
             </div>
@@ -336,7 +337,9 @@
                 <div class="col-lg-4 col-md-4  col-sm-12 ">
                     <div class="left-gt">
                         <div class="img-gt ">
-                            <a href="#"><img src="https://shac.vn/wp-content/uploads/2013/12/gia-tri-coto-loi-shac-1024x733.jpg" alt=""></a>
+                            <a href="#"><img
+                                    src="https://shac.vn/wp-content/uploads/2013/12/gia-tri-coto-loi-shac-1024x733.jpg"
+                                    alt=""></a>
                         </div>
                         <p class="text-center mt-3">Giá trị cốt loại của sơn hà - SHAC</p>
                     </div>
@@ -378,7 +381,9 @@
         <div class="container">
 
             <!-- van hoa doanh nghiep -->
-            <h2 class="text-center mb-5">văn hóa doanh nghiệp</h2>
+            <div class="text-center mb-5">
+                <h2>văn hóa doanh nghiệp</h2>
+            </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="text-dn">
@@ -406,14 +411,17 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="img-dn mb-4">
-                        <img src="https://shac.vn/wp-content/uploads/2013/12/Gioi-thieu-Son-ha-architecture-shac-1.jpg" alt="">
+                        <img src="https://shac.vn/wp-content/uploads/2013/12/Gioi-thieu-Son-ha-architecture-shac-1.jpg"
+                            alt="">
                     </div>
                     <p class="text-center">Đồng phục Sơn Hà Architecture</p>
                 </div>
             </div>
 
             <!-- van hoa choi -->
-            <h2 class="text-center mb-5">văn hóa chơi</h2>
+            <div class="text-center mb-5">
+                <h2>văn hóa chơi</h2>
+            </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 order-2">
                     <div class="text-dn">
@@ -441,14 +449,19 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 order-1">
                     <div class="img-dn mb-4  ">
-                        <iframe width="516" height="290" src="https://www.youtube.com/embed/_zUGxqjRXpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="516" height="290" src="https://www.youtube.com/embed/_zUGxqjRXpk" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                     <p class="text-center">Đồng phục Sơn Hà Architecture</p>
                 </div>
             </div>
 
             <!-- van hoa lam -->
-            <h2 class="text-center mb-5">văn hóa làm</h2>
+            <div class="text-center mb-5">
+                <h2>văn hóa làm</h2>
+            </div>
+
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="text-dn">
@@ -478,7 +491,8 @@
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="img-dn mb-4  ">
-                        <img src="https://shac.vn/wp-content/uploads/2013/12/Gioi-thieu-Son-ha-architecture-shac-3-500x363.jpg" alt="">
+                        <img src="https://shac.vn/wp-content/uploads/2013/12/Gioi-thieu-Son-ha-architecture-shac-3-500x363.jpg"
+                            alt="">
                     </div>
                     <p class="text-center">Đồng phục Sơn Hà Architecture</p>
                 </div>
@@ -489,8 +503,8 @@
     <!-- history -->
     <section class="history mb-5">
         <div class="container">
-            <h2 class="text-center mt-4">lịch sử phát triển và hình thành</h2>
-            
+            <h2 class="mt-4">lịch sử phát triển và hình thành</h2>
+
             <!-- row-1 -->
             <div class="row mt-5">
                 <!-- img -->
@@ -504,7 +518,8 @@
                     <div class="wrapper-history">
 
                         <div class="text-box">
-                            <p> <span>2003</span> Thành lập Công ty Cổ phần Đá gốm Sơn Hà – tiền thân của Công ty Cổ phần Tư vấn Xây dựng Sơn Hà (SHAC).</p>
+                            <p> <span>2003</span> Thành lập Công ty Cổ phần Đá gốm Sơn Hà – tiền thân của Công ty Cổ
+                                phần Tư vấn Xây dựng Sơn Hà (SHAC).</p>
                         </div>
                         <p class="text-center">
                             <a href="#" class="btn btn-light">Xem chi tiết...</a>
@@ -525,7 +540,8 @@
                     <div class="wrapper-history">
 
                         <div class="text-box">
-                            <p> <span>2003</span> Thành lập Công ty Cổ phần Đá gốm Sơn Hà – tiền thân của Công ty Cổ phần Tư vấn Xây dựng Sơn Hà (SHAC).</p>
+                            <p> <span>2003</span> Thành lập Công ty Cổ phần Đá gốm Sơn Hà – tiền thân của Công ty Cổ
+                                phần Tư vấn Xây dựng Sơn Hà (SHAC).</p>
                         </div>
                         <p class="text-center">
                             <a href="#" class="btn btn-light">Xem chi tiết...</a>
@@ -546,7 +562,8 @@
                     <div class="wrapper-history">
 
                         <div class="text-box">
-                            <p> <span>2003</span> Thành lập Công ty Cổ phần Đá gốm Sơn Hà – tiền thân của Công ty Cổ phần Tư vấn Xây dựng Sơn Hà (SHAC).</p>
+                            <p> <span>2003</span> Thành lập Công ty Cổ phần Đá gốm Sơn Hà – tiền thân của Công ty Cổ
+                                phần Tư vấn Xây dựng Sơn Hà (SHAC).</p>
                         </div>
                         <p class="text-center">
                             <a href="#" class="btn btn-light">Xem chi tiết...</a>
@@ -567,7 +584,8 @@
                     <div class="wrapper-history">
 
                         <div class="text-box">
-                            <p> <span>2003</span> Thành lập Công ty Cổ phần Đá gốm Sơn Hà – tiền thân của Công ty Cổ phần Tư vấn Xây dựng Sơn Hà (SHAC).</p>
+                            <p> <span>2003</span> Thành lập Công ty Cổ phần Đá gốm Sơn Hà – tiền thân của Công ty Cổ
+                                phần Tư vấn Xây dựng Sơn Hà (SHAC).</p>
                         </div>
                         <p class="text-center">
                             <a href="#" class="btn btn-light">Xem chi tiết...</a>
@@ -588,7 +606,8 @@
                     <div class="wrapper-history">
 
                         <div class="text-box">
-                            <p> <span>2003</span> Thành lập Công ty Cổ phần Đá gốm Sơn Hà – tiền thân của Công ty Cổ phần Tư vấn Xây dựng Sơn Hà (SHAC).</p>
+                            <p> <span>2003</span> Thành lập Công ty Cổ phần Đá gốm Sơn Hà – tiền thân của Công ty Cổ
+                                phần Tư vấn Xây dựng Sơn Hà (SHAC).</p>
                         </div>
                         <p class="text-center">
                             <a href="#" class="btn btn-light">Xem chi tiết...</a>
@@ -609,7 +628,8 @@
                     <div class="wrapper-history">
 
                         <div class="text-box">
-                            <p> <span>2003</span> Thành lập Công ty Cổ phần Đá gốm Sơn Hà – tiền thân của Công ty Cổ phần Tư vấn Xây dựng Sơn Hà (SHAC).</p>
+                            <p> <span>2003</span> Thành lập Công ty Cổ phần Đá gốm Sơn Hà – tiền thân của Công ty Cổ
+                                phần Tư vấn Xây dựng Sơn Hà (SHAC).</p>
                         </div>
                         <p class="text-center">
                             <a href="#" class="btn btn-light">Xem chi tiết...</a>
@@ -627,17 +647,17 @@
 
     <!-- script-counter -->
     <script>
-        $('.counter-count').each(function() {
-            $(this).prop('Counter', 0).animate({
-                Counter: $(this).text()
-            }, {
-                duration: 2000,
-                easing: 'swing',
-                step: function(now) {
-                    $(this).text(Math.ceil(now));
-                }
-            });
+    $('.counter-count').each(function() {
+        $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 2000,
+            easing: 'swing',
+            step: function(now) {
+                $(this).text(Math.ceil(now));
+            }
         });
+    });
     </script>
 
 

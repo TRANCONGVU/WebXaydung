@@ -18,4 +18,18 @@ class Controller_1 extends Controller
     public  function get_gioithieu(){
     	return view('pages.gioithieu');
     }
+    public  function get_hosothietke(){
+    	return view('pages.hosothietke');
+    }
+    public  function get_noithat(){
+    	return view('pages.noithat');
+    }
+    public  function get_nhadep(){
+    	return view('pages.nhadep');
+    }
+    public  function get_tienich(){
+    	return view('pages.tienich');
+    }
+   
+    
 }

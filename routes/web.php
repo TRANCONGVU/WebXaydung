@@ -34,3 +34,19 @@ Route::get('gioithieu', [
 	'as' =>'gioithieu',
 	'uses' => 'Controller_1@get_gioithieu'
 ]);
+Route::get('hosothietke', [
+	'as' =>'hosothietke',
+	'uses' => 'Controller_1@get_hosothietke'
+]);
+Route::get('noithat', [
+	'as' =>'noithat',
+	'uses' => 'Controller_1@get_noithat'
+]);
+Route::get('nhadep', [
+	'as' =>'nhadep',
+	'uses' => 'Controller_1@get_nhadep'
+]);
+Route::get('tienich', [
+	'as' =>'tienich',
+	'uses' => 'Controller_1@get_tienich'
+]);
