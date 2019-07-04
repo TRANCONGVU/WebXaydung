@@ -79,6 +79,7 @@
 		var tt = true;
 
 
+
 		minimize.addEventListener('click', function () {
 		    if (tt === true) {
 		        box.classList.add('box-chat2');
