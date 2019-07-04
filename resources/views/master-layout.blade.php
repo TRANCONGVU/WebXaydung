@@ -21,6 +21,8 @@
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/gioithieu.css">
 	<link rel="stylesheet" type="text/css" href="css/hosothietke.css">
+	<link rel="stylesheet" type="text/css" href="css/subnews.css">
+	
 
 
 
