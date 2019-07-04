@@ -5,7 +5,7 @@
 		<a href="#">tư vấn thi công : 0124454595</a>
 	</div>
 </div>
-{{--  <div class="lienhe text-left d-flex flex-column">
+<div class="lienhe text-left d-flex flex-column">
 	<div id="minimize" onclick="minimize" class="icon">
 		<i  class="fas fa-window-minimize"></i>
 	</div>
@@ -26,7 +26,7 @@
 					  </div>
 					  <button type="button" class="btn">Đăng ký</button>
 		</form>
-</div>  --}}
+</div>
 </div>
 <div class="container-fluid bg-dark footer pb-5">
 	<div class="container pt-3">
@@ -77,6 +77,7 @@
 		var minimize = document.getElementById("minimize");
 		var box = document.querySelector(".box-chat");
 		var tt = true;
+
 
 
 		minimize.addEventListener('click', function () {
