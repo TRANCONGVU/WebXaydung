@@ -50,3 +50,7 @@ Route::get('tienich', [
 	'as' =>'tienich',
 	'uses' => 'Controller_1@get_tienich'
 ]);
+Route::get('subnews', [
+	'as' =>'subnews',
+	'uses' => 'Controller_1@get_subnews'
+]);

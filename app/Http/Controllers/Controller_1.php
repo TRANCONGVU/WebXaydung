@@ -30,6 +30,9 @@ class Controller_1 extends Controller
     public  function get_tienich(){
     	return view('pages.tienich');
     }
+    public  function get_subnews(){
+    	return view('pages.subnews');
+    }
    
     
 }

@@ -13,8 +13,8 @@
 
              <h2><span><i class="fas fa-bullseye"></i></span> tra cứu phong thủy</h2>
              <div class="row">
-                 <!-- colum-left -->
-                 <div class="col lg-6 col-md-6 col-sm-12 ">
+                 <!-- colum-left-->
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                      <div class="box-form">
                          <h3>xem hướng nhà</h3>
 
@@ -63,7 +63,7 @@
                      </div>
                  </div>
                  <!-- colum-right -->
-                 <div class="col lg-6 col-md-6 col-sm-12">
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                      <div class="box-form ">
                          <h3>xem tuổi xây dựng</h3>
 
