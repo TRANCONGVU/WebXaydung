@@ -97,7 +97,7 @@ nav.nav-horizontal a{
 	-o-transition: 0.3s all;
 	transition: 0.3s all;
 	margin-top: 10.5px;
-	
+
 }
 .nav-horizontal-search-active{
 	width: 247.5px;
@@ -117,7 +117,7 @@ nav.nav-horizontal a{
 	-ms-transition: 0.3s all;
 	-o-transition: 0.3s all;
 	transition: 0.3s all;
-	
+
 }
 .nav-horizontal-search-icon>i:hover{
 	color: #FF853E;
@@ -269,12 +269,12 @@ nav.nav-horizontal a{
 	top: 0px;
 	left: 100%;
 	width: 260px;
-	margin-left: 2px;	
+	margin-left: 2px;
 	background: #e42222;
 	display: none;
 	border-right: 1px solid white;
 	/*box-shadow: 1px 5px 25px #ccc;*/
-	
+
 }
 .nav-horizontal-content ul.nav-ul-lv-3>li>a{
 	margin: 0 20px;
@@ -296,7 +296,7 @@ nav.nav-horizontal a{
 	-moz-transition: 0.4s all;
 	-ms-transition: 0.4s all;
 	-o-transition: 0.4s all;
-	transition: 0.4s all;	
+	transition: 0.4s all;
 	font-weight: bold;
 }
 
@@ -352,7 +352,7 @@ section.banner-slider-active{
 }
 .nav-horizontal-sublogo-active-1 .nav-horizontal-sublogo-box{
 	width: 40px;
-	height: 40px;	
+	height: 40px;
 }
 .nav-horizontal-logo-active-1{
 	width: 40px;
@@ -390,7 +390,7 @@ section.banner-slider-active-1{
 	display: none;
 }
 .menu-mobile-button-active{
-	background: #048a35;
+	background: #c8d3cc;
 }
 html{
 	position: relative;
@@ -525,7 +525,7 @@ ul.menu-left-ul-lv-1>li:hover >i{
 }
 ul.menu-left-ul-lv-1 li>i:hover{
 	background: #048a35;
-	color: #fff;	
+	color: #fff;
 }
 ul.menu-left-ul-lv-child{
 	overflow: hidden;
@@ -592,7 +592,7 @@ section.back-to-top{
 	z-index: 999;
 }
 .back-to-top-button{
-	background: #ff6900;
+	background: #000;
 	color: #fff;
 	font-size: 20px;
 	padding: 0 10px;
@@ -603,8 +603,9 @@ section.back-to-top{
 	-ms-transition: 0.3s all;
 	-o-transition: 0.3s all;
 	transition: 0.3s all;
-	
+
 }
 .back-to-top-button:hover{
-	background: #FF4E00;
+    background: #fff;
+    color: black;
 }

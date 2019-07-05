@@ -33,4 +33,21 @@ class Controller_1 extends Controller
     public  function get_diendanphongthuy(){
     	return view('pages.diendanphongthuy');
     }
+    public  function get_hosothietke(){
+    	return view('pages.hosothietke');
+    }
+    public  function get_noithat(){
+    	return view('pages.noithat');
+    }
+    public  function get_nhadep(){
+    	return view('pages.nhadep');
+    }
+    public  function get_tienich(){
+    	return view('pages.tienich');
+    }
+    public  function get_subnews(){
+    	return view('pages.subnews');
+    }
+   
+    
 }
