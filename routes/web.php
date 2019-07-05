@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [
+	'as' =>'trang-chu',
+	'uses' => 'Controller_1@get_trangchu'
+]);
 
 Route::get('trang-chu', [
 	'as' =>'trang-chu',
@@ -34,6 +35,29 @@ Route::get('gioithieu', [
 	'as' =>'gioithieu',
 	'uses' => 'Controller_1@get_gioithieu'
 ]);
+Route::get('diendanxaydung', [
+	'as' =>'diendanxaydung',
+	'uses' => 'Controller_1@get_diendanxaydung'
+]);
+Route::get('dangtin', [
+	'as' =>'dangtin',
+	'uses' => 'Controller_1@get_dangtin'
+]);
+Route::get('diendankientruc', [
+	'as' =>'diendankientruc',
+	'uses' => 'Controller_1@get_diendankientruc'
+]);
+Route::get('diendannoithat', [
+	'as' =>'diendannoithat',
+	'uses' => 'Controller_1@get_diendannoithat'
+]);
+Route::get('diendanphongthuy', [
+	'as' =>'diendanphongthuy',
+	'uses' => 'Controller_1@get_diendanphongthuy'
+]);
+	
+
+
 Route::get('hosothietke', [
 	'as' =>'hosothietke',
 	'uses' => 'Controller_1@get_hosothietke'
